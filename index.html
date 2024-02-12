@@ -9,18 +9,43 @@
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div class="control">
+        <div class="main-content">
+            <div class="status-bar">
+                <div class="hours">
+                    9:41
+                </div>
+                <div class="notch">
+                    <div class="thin-rectangle"></div>
+                    <div class="big-rectangle"></div>
+                </div>
+                <div class="hardware-info">
+                    <img src="./assets/sinal-de-rede.png" alt="sinal de rede">
+                    <img src="./assets/sinal-wifi.png" alt="sinal wifi">
+                    <img src="/assets/bateria-cheia.png" alt="bateria">
+                </div>
+            </div>
+            <div class="header">
+                <h1>Cálculo de IMC</h1>
+            </div>
+            <div>
+                <fieldset class="form-field">
+                    <input type="text" placeholder="Altura" name="altura" class= "input-imc">
+                    <input type="text" placeholder="Peso" name="peso" class="input-imc">
+                    <input type="text" placeholder="Sexo" name="sexo" class="input-imc">
+                    <label for="olderThan" class="input-old-year">
+                        <input type="checkbox" id="olderThan">
+                        Eu tenho 65 anos ou mais
+                    </label>
+                    <button type="button" class="calculate calculate-imc">Calcular meu IMC</button>
+                    <button type="button" class="understand-calculation calculate">Entenda o cálculo</button>
+                </fieldset>
+            </div>
+            <div class="keyboard">
+                <img src="./assets/keyboard.png" alt="keyboard">
+            </div>
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
 </body>
 
 </html>
